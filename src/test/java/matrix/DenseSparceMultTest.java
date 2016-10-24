@@ -1,8 +1,7 @@
 package matrix;
 
+import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 /**
  * Created by andrew on 12.10.16.
@@ -28,25 +27,25 @@ public class DenseSparceMultTest {
 
     @Test
     public void testMulDenseSparse() {
-        DenseMatrix sd = (DenseMatrix) a1.mul(b2);
-        assertEquals(sd.getData(), res.getData());
+        DenseMatrix sd = a1.mul(b2);
+        Assert.assertArrayEquals(sd.getData(), res.getData());
     }
 
     @Test
     public void testMulSparseSparse() {
-        DenseMatrix ss = (DenseMatrix) a1.mul(b1);
-        assertEquals(ss.getData(), res.getData());
+        DenseMatrix ss = a1.mul(b1);
+        Assert.assertArrayEquals(ss.getData(), res.getData());
     }
 
     @Test
     public void testMulDenseDense() {
-        DenseMatrix dd = (DenseMatrix) a2.mul(b2);
-        assertEquals(dd.getData(), res.getData());
+        DenseMatrix dd = a2.mul(b2);
+        Assert.assertArrayEquals(dd.getData(), res.getData());
     }
 
     @Test
     public void testMulSparseDense() {
-        DenseMatrix ds = (DenseMatrix) a2.mul(b1);
-        assertEquals(ds.getData(), res.getData());
+        DenseMatrix ds = a2.mul(b1);
+        Assert.assertArrayEquals(ds.getData(), res.getData());
     }
 }

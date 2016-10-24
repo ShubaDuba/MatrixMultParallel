@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49c74884-55b8-4273-804d-19ef503a15e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/edu/spbu/cs/MatrixGenerator.class" afterPath="$PROJECT_DIR$/build/classes/main/edu/spbu/cs/MatrixGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/matrix/DenseMatrix.class" afterPath="$PROJECT_DIR$/build/classes/main/matrix/DenseMatrix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/matrix/SparseMatrix$1Pair.class" afterPath="$PROJECT_DIR$/build/classes/main/matrix/SparseMatrix$1Pair.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/matrix/SparseMatrix.class" afterPath="$PROJECT_DIR$/build/classes/main/matrix/SparseMatrix.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/java-template_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/java-template_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/matrix/DenseSparceMultTest.class" afterPath="$PROJECT_DIR$/build/classes/test/matrix/DenseSparceMultTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/spbu/cs/MatrixGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/edu/spbu/cs/MatrixGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/matrix/DenseMatrix.java" afterPath="$PROJECT_DIR$/src/main/java/matrix/DenseMatrix.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/matrix/SparseMatrix.java" afterPath="$PROJECT_DIR$/src/main/java/matrix/SparseMatrix.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/matrix/DenseSparceMultTest.java" afterPath="$PROJECT_DIR$/src/test/java/matrix/DenseSparceMultTest.java" />
     </list>
     <ignored path="java-template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +46,7 @@
       <file leaf-file-name="DenseMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/matrix/DenseMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
+            <state relative-caret-position="1725">
               <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,8 +58,8 @@
       <file leaf-file-name="DenseSparceMultTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/matrix/DenseSparceMultTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="167">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +80,7 @@
       <file leaf-file-name="SparseMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/matrix/SparseMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="1950">
               <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
               <folding />
             </state>
@@ -96,7 +90,7 @@
       <file leaf-file-name="MatrixGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/spbu/cs/MatrixGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
+            <state relative-caret-position="120">
               <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -403,10 +397,10 @@
         <option value="$PROJECT_DIR$/src/main/java/matrix/iMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/matrix/Matrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/matrix/IMatrix.java" />
-        <option value="$PROJECT_DIR$/src/test/java/matrix/DenseSparceMultTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/matrix/DenseMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/matrix/SparseMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/spbu/cs/MatrixGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/matrix/DenseSparceMultTest.java" />
       </list>
     </option>
   </component>
@@ -470,8 +464,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -584,7 +577,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -595,7 +589,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.MatrixGenerator">
+  <component name="RunManager" selected="JUnit.DenseSparceMultTest">
     <configuration default="false" name="Matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1004,8 +998,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MatrixGenerator" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DenseSparceMultTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DenseSparceMultTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MatrixGenerator" />
         <item index="2" class="java.lang.String" itemvalue="Gradle.MatrixMultParallel [build]" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.DenseSparceMultTest.testMulSparseDense" />
         <item index="4" class="java.lang.String" itemvalue="Application.Matrix" />
@@ -1035,12 +1029,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DenseSparceMultTest - 2016.10.23 at 22h 36m 15s.xml">
-      <configuration name="DenseSparceMultTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DenseSparceMultTest - 2016.10.23 at 22h 36m 17s.xml">
-      <configuration name="DenseSparceMultTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DenseSparceMultTest - 2016.10.23 at 22h 36m 37s.xml">
       <configuration name="DenseSparceMultTest" configurationId="JUnit" />
     </history-entry>
@@ -1065,10 +1053,16 @@
     <history-entry file="DenseSparceMultTest - 2016.10.23 at 23h 04m 49s.xml">
       <configuration name="DenseSparceMultTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DenseSparceMultTest - 2016.10.24 at 14h 40m 28s.xml">
+      <configuration name="DenseSparceMultTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DenseSparceMultTest - 2016.10.24 at 14h 43m 09s.xml">
+      <configuration name="DenseSparceMultTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1077,8 +1071,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1475,13 +1469,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/matrix/DenseMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
+        <state relative-caret-position="1725">
           <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1491,7 +1484,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/matrix/SparseMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="1950">
           <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
           <folding />
         </state>
@@ -1499,7 +1492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/spbu/cs/MatrixGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
+        <state relative-caret-position="120">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1509,8 +1502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/matrix/DenseSparceMultTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="167">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
